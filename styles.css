@@ -1,4 +1,3 @@
-/* General styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -35,31 +34,31 @@ header nav ul li a {
 }
 
 #members {
-    background-color: #2e29a5; /* Background color for members section */
+    background-color: #2e29a5;
     padding: 50px;
     text-align: center;
 }
 
 .member-item {
-    margin-bottom: 30px; /* Space between member items */
+    margin-bottom: 30px; 
 }
 
 .member-item img {
-    width: 150px; /* Fixed width for member images */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 0; /* Remove border radius for rectangular shape */
-    /* Remove vendor prefixes for border-radius since it's not needed anymore */
+    width: 150px; 
+    height: auto; 
+    border-radius: 0; 
+    
 }
 
 .member-item h3 {
-    color: #ffffff; /* Member name color */
-    font-size: 1.5em; /* Font size for member names */
-    margin-top: 10px; /* Space above name */
+    color: #ffffff; 
+    font-size: 1.5em; 
+    margin-top: 10px; 
 }
 
 .member-item p {
-    color: #fffdfd; /* Text color for member descriptions */
-    font-size: 1em; /* Font size for descriptions */
+    color: #fffdfd; 
+    font-size: 1em; 
 }
 
 
@@ -77,27 +76,27 @@ header nav ul li a {
 }
 
 .portfolio-item p {
-    color: #fff; /* White text color */
-    font-size: 1.1em; /* Default font size */
-    margin-top: 10px; /* Space above text */
+    color: #fff; 
+    font-size: 1.1em; 
+    margin-top: 10px; 
 }
 
 .portfolio-item p:first-child {
-    font-size: 1.2em; /* Larger font size for the title */
-    font-weight: bold; /* Bold text for emphasis */
+    font-size: 1.2em; 
+    font-weight: bold; 
 }
 
 .portfolio-item img {
-    width: 100%; /* Responsive image */
-    max-width: 320px; /* Limit the max width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Optional: add rounded corners */
+    width: 100%; 
+    max-width: 320px; 
+    height: auto; 
+    border-radius: 5px; 
 }
 
 .portfolio-item p {
-    color: #fff; /* White text color */
-    font-size: 1.1em; /* Default font size */
-    margin-top: 10px; /* Space above text */
+    color: #fff; 
+    font-size: 1.1em; 
+    margin-top: 10px; 
 }
 
 .about-us {
@@ -112,7 +111,6 @@ header nav ul li a {
     margin: 0 auto;
 }
 
-/* Contact Section */
 .contact {
     background-color: #004aad;
     color: white;
