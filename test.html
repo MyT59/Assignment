@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="welcome">
+        <h1>Harris & Michael</h1>
+        <p>The art of movement and the power of visuals.</p>
+    </section>
+
+    <section id="members">
+        <h2>Members</h2>
+    
+        <!-- First Member -->
+        <div class="member-item">
+            <img src="39761-589090.jpg" alt="Haris Muhyidin Shofar" style="width: 150px; height: auto;">
+            <h3>Haris Muhyidin Shofar</h3>
+            <p>“I am a passionate videographer dedicated to capturing compelling visuals and telling powerful stories through the lens of my camera. With a keen eye for detail and a deep understanding of composition, I create videos that resonate with audiences. My journey in videography has been driven by a commitment to constantly learn and evolve, mastering techniques in lighting, editing, and storytelling. Whether it’s creating promotional content, documenting events, or crafting cinematic narratives, I bring creativity and technical expertise to every project. My goal is to transform ideas into visual experiences that leave a lasting impact.”</p>
+        </div>
+    
+        <!-- Second Member -->
+        <div class="member-item">
+            <img src="mikel.jpg" alt="Michael Hasudungan Tampubolon" style="width: 150px; height: auto;">
+            <h3>Michael Hasudungan Tampubolon</h3>
+            <p>“From a young age, the water felt like home. With relentless training and dedication, I achieved my best record: an impressive 30 seconds in a 50-meter swim. This milestone represented countless hours of hard work, early mornings, and a passion for the sport. Swimming taught me the importance of teamwork and resilience as I cheered on fellow athletes while striving for my best. Although I've stepped away from competitive racing, the lessons I learned in the pool remain. Now, as I pursue my goal of becoming a coach, I’m eager to share my knowledge and inspire the next generation of swimmers.”</p>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <h2>PORTFOLIO</h2>
+        <div class="portfolio-content">
+            <div class="portfolio-item">
+                <video width="450" height="240" controls>
+                    <source src="XII IPS 3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Video</p>
+            </div>
+            <div class="portfolio-item">Videography (Cinematic)</div>
+            <div class="portfolio-item">
+                <p style="font-size: 1.2em; color: white;">Athletic</p>
+                <p>I developed a love for sports from a young age, starting with swimming at the age of 5. It quickly became a passion, offering me a sense of freedom and tranquility. I enjoy exploring various swimming styles, finding joy in the rhythm of my strokes and the refreshing embrace of the water. Rather than focusing on competition, I have set personal goals to improve my skills and enhance my endurance.
+
+                    At 14, I discovered basketball, which added a new dimension to my athletic journey. The teamwork, strategy, and physical challenges of the game have made it a rewarding experience. I enjoy both playing and watching basketball, as it keeps me active and engaged while teaching me valuable lessons about collaboration and perseverance.
+                    
+                    My love for swimming has also led me to engage in community programs that promote water safety and encourage children to learn how to swim. I believe swimming is an essential life skill, and I find fulfillment in sharing my passion with others.
+                    
+                    As I continue my journey in both swimming and basketball, I aim to maintain a balanced approach, incorporating mindfulness and fitness into my routine. I look forward to exploring open-water swimming and further developing my basketball skills, while also helping others discover the joy I've found in these sports..</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="basket.jpg" alt="Description of the image" style="width: 320px; height: auto;">
+                <p>senior high school basketball team</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <h2>ABOUT US</h2>
+        <p>Haris & Michael is your premier destination for creativity and athletic excellence. Combining the artistry of videography with the expertise of athletic coaching, we offer a unique blend of services designed to inspire and empower.
+
+            At Haris Videography, we specialize in crafting stunning visual narratives tailored to your vision, whether for special events, promotional content, or personal storytelling. Our commitment to creativity and professionalism ensures that every project resonates with your audience.
+            
+            As Michael Athletic Coaching, we focus on unlocking your full potential as an athlete. With personalized training programs and a strong emphasis on technique, strategy, and mental resilience, we guide individuals at all levels to achieve their athletic goals.
+            
+            Together, Haris & Michael provide a holistic approach to storytelling and performance, helping you capture your journey and elevate your abilities. Join us in celebrating the art of movement and the power of visuals.</p>
+    </section>
+
+    <section class="contact">
+        <h2>CONTACT US</h2>
+        <div class="contact-forms">
+            <div class="form-videography">
+                <h3>Videography</h3>
+                <form action="#" method="post">
+                    <label for="name-video">Name:</label>
+                    <input type="text" id="name-video" name="name" placeholder="Your Name" required>
+                    
+                    <label for="email-video">Email:</label>
+                    <input type="email" id="email-video" name="email" placeholder="Your Email" required>
+
+                    <label for="message-video">Message:</label>
+                    <textarea id="message-video" name="message" rows="4" placeholder="How can we help?" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+            <div class="form-coach">
+                <h3>Athletic Coach</h3>
+                <form action="#" method="post">
+                    <label for="name-coach">Name:</label>
+                    <input type="text" id="name-coach" name="name" placeholder="Your Name" required>
+                    
+                    <label for="email-coach">Email:</label>
+                    <input type="email" id="email-coach" name="email" placeholder="Your Email" required>
+
+                    <label for="message-coach">Message:</label>
+                    <textarea id="message-coach" name="message" rows="4" placeholder="How can we help?" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
